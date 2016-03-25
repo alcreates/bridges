@@ -2,6 +2,7 @@
 
 #testPrepArea{
 	height:700px;
+	overflow:scroll;
 }
 
 #communityChat {
@@ -56,4 +57,12 @@
 }
 #questionDiv {
 	display:block;
+	overflow: scroll;
+}
+.answer-button1 {
+
+}
+
+#resultDiv{
+  font-size:20px;
 }
