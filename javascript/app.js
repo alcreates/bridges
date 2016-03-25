@@ -503,7 +503,7 @@ randomNum();
 //Display questions and options
 
 function display(){
-	$("#questionDiv").append("<h2>" + questions[questionNumber].question + "</h2>");
+	$("#questionDiv").html("<h2>" + questions[questionNumber].question + "</h2>");
       for (var i = 0; i<questions[this.questionNumber].answers.length; i++){
       $("#panel").append("<a class='answer-button waves-effect waves-light btn-large' id='button'" + "data-name='" + questions[this.questionNumber].answers[i] + "''>" + questions[this.questionNumber].answers[i]+ "</a>");
 
@@ -549,7 +549,7 @@ var languages = [{//1
 
 //Language buttons populate panel 
 for (var i = 0; i<languages.length; i++) {
-      $("#panel").append("<button class='answer-button1' id='button' value=" + languages[i].value + " data-name=" 
+      $("#dropdown1").append("<button class='answer-button1' id='button' value=" + languages[i].value + " data-name=" 
         + languages[i].language + "''>"  + languages[i].language + "</button>");
     }
 
@@ -557,21 +557,22 @@ for (var i = 0; i<languages.length; i++) {
 
 $(document).on("click", '.answer-button1', function(e) {
 
+	
 	$("#panel").empty();
 
   var queryUrl = 'https:translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20160317T225805Z.24fe4d3e49b00f5f.6bcc824a7ac0b4ec0da91a97f022d7045d9b121c&text=' +  questions[questionNumber].question +  '&lang=' + $(event.target).attr("value");
 
 	$.ajax({url: queryUrl, method : 'GET'})
 		.done(function(response){
-			var result = response.text;
+			var result = response.text[0];
 			
-				 $("#questionDiv").append("<h2>" + result + "</h2>");
+				 $("#questionDiv").html("<h2>" + result + "</h2>");
 		
 				
 			
 		
 		// console.log(JSON.stringify(response));
-		// console.log(response);
+		console.log(response);
 //console.log($(event.target).attr("value"));
   
 });
@@ -583,12 +584,12 @@ var queryUrl2 = 'https:translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl
 			console.log(response.text[0]);
 			var result = response.text;
 
-			$("#panel").append("<button class='answer-button2' data-name='" + questions[questionNumber].answers[0] + "' >" + response.text[0] + "</button>");
+			$("#panel").append("<a class='answer-button2 waves-effect waves-light btn-large' data-name='" + questions[questionNumber].answers[0] + "' >" + response.text[0] + "</a>");
 			
 				 // $("#panel").append("<button class='answer-button' id='button'" + "data-name='" + questions[this.questionNumber].answers[i] + "''>" + result + "</button>");
 				
 			
-		
+		 
 		// console.log(JSON.stringify(response));
 		// console.log(response);
 
@@ -601,7 +602,7 @@ var queryUrl3 = 'https:translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl
 		.done(function(response){
 			var result = response.text;
 			// console.log(response.text[0]);
-				$("#panel").append("<button class='answer-button2' data-name='" + questions[questionNumber].answers[1] + "' >" + response.text[0] + "</button>");
+				$("#panel").append("<a class='answer-button2 waves-effect waves-light btn-large' data-name='" + questions[questionNumber].answers[1] + "' >" + response.text[0] + "</a>");
 				
 			console.log(questions[questionNumber].answers[1]);
 		
@@ -617,7 +618,7 @@ var queryUrl4= 'https:translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.
 		.done(function(response){
 			var result = response.text;
 			
-				 $("#panel").append("<button class='answer-button2' data-name='" + questions[questionNumber].answers[2] + "' >" + response.text[0] + "</button>");
+				 $("#panel").append("<a class='answer-button2 waves-effect waves-light btn-large' data-name='" + questions[questionNumber].answers[2] + "' >" + response.text[0] + "</a>");
 				
 			
 		
@@ -633,7 +634,7 @@ var queryUrl5 = 'https:translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl
 		.done(function(response){
 			var result = response.text;
 			
-				 $("#panel").append("<button class='answer-button2' data-name='" + questions[questionNumber].answers[3] + "' >" + response.text[0] + "</button>");
+				 $("#panel").append("<a class='answer-button2 waves-effect waves-light btn-large' data-name='" + questions[questionNumber].answers[3] + "' >" + response.text[0] + "</a>");
 				
 			
 		
