@@ -18,8 +18,8 @@ var questions = [{//1
   correctAnswer: "Congress"
 }, {//3
   question: "What stops one branch of government from becoming too powerful?",
-  answers: ["Bill of Rights", "Checks and balances", "Speration of powers", "Checks balances and Seperation of powers"],
-  correctAnswer: "Checks balances and Seperation of powers"
+  answers: ["Bill of Rights", "Checks and balances", "Speration of powers", "Checks balances and seperation of powers"],
+  correctAnswer: "Checks balances and seperation of powers"
 }, {//4
   question: "Who is in charge of the executive branch?",
   answers: ["Congress", "The House of Representatives", "The Senate", "The President"],
@@ -30,384 +30,384 @@ var questions = [{//1
   correctAnswer: "Citizens 18 and older can vote"
 }, {//6
   question: "What is one reason the colonist came to America?",
-  answers: ["Political liberty ", "Religious freedom", "Economic opportunity", "D: All of the above"],
-  correctAnswer: "D: All of the above"
+  answers: ["Political liberty ", "Religious freedom", "Economic opportunity", "All of the above"],
+  correctAnswer: "All of the above"
 }, {//7
   question: "What territory did the United States buy from France in 1803?",
-  answers: ["A: New Mexico Territory", "B: Louisiana Territory", "C: Arizona Territory", "D: Nevada Territory"],
-  correctAnswer: "B: Louisiana Territory"
+  answers: ["New Mexico Territory", "Louisiana Territory", "Arizona Territory", "Nevada Territory"],
+  correctAnswer: "Louisiana Territory"
 }, {//8
   question: "Name one war fought by the United States in the 1900s.",
-  answers: ["A: French and Indian War", "B: Civil War", "C: World War I", "D: All of the above"],
-  correctAnswer: "C: World War I"
+  answers: ["French and Indian War", "Civil War", "World War I", "All of the above"],
+  correctAnswer: "Civil War"
 }, {//9
   question: "Name one of the two longest rivers in the United States.",
-  answers: ["A: Sacramento River", "B: Ohio River", "C: Missouri River", "D: Hudson River"],
-  correctAnswer: "C: Missouri River"
+  answers: ["Sacramento River", "Ohio River", "Missouri River", "Hudson River"],
+  correctAnswer: "Missouri River"
 }, {//10
   question: "Why does the flag have 13 stripes?",
-  answers: ["A: For the first 13 presidents", "B: Because there were 13 original Colonies", "C: Because America has fought 13 wars", "D: For 13 of the top US generals"],
-  correctAnswer: "B: Because there were 13 original Colonies"
+  answers: ["For the first 13 presidents", "Because there were 13 original Colonies", "Because America has fought 13 wars", "For 13 of the top US generals"],
+  correctAnswer: "Because there were 13 original Colonies"
 }, {//11
   question: "What does the Constitution do?",
-  answers: ["A: Sets up the government", "B: Defines the government", "C: Protects basic rights of Americans", "D: All of the above"],
-  correctAnswer: "D: All of the above"
+  answers: ["Sets up the government", "Defines the government", "Protects basic rights of Americans", "All of the above"],
+  correctAnswer: "All of the above"
 }, {//12
   question: "Who makes Federal laws?",
-  answers: ["A: Congress", "B: Senate and House(of Representatives)", "C: (U.S. or national) legislature ", "D: All of the above"],
-  correctAnswer: "D: All of the above"
+  answers: ["Congress", "Senate and House(of Representatives)", "(U.S. or national) legislature ", "All of the above"],
+  correctAnswer: "All of the above"
 }, {//13
   question: "What are the two parts of the U.S. Congress?",
-  answers: ["A: The Courts", "B: The House of Representatives", "C: The Senate", "D: Both B and C"],
-  correctAnswer: "D: Both B and C"
+  answers: ["The Courts", "The House of Representatives", "The Senate", "Both the House of Representatives and the Senate"],
+  correctAnswer: "Both the House of Representatives and the Senate"
 }, {//14
   question: "How many U.S. Senators are there?",
-  answers: ["A: 50", "B: 100", "C: 200", "D: 435"],
-  correctAnswer: "B: 100"
+  answers: ["50", "100", "200", "435"],
+  correctAnswer: "100"
 }, {//15
   question: "What is one responsibility that is only for United States citizens?",
-  answers: ["A: Pay federal taxes", "B: Pay state taxes", "C: Serve on a jury", "D: Obtain a drivers liscence"],
-  correctAnswer:  "C: Serve on a jury"
+  answers: ["Pay federal taxes", "Pay state taxes", "Serve on a jury", "Obtain a drivers liscence"],
+  correctAnswer:  "Serve on a jury"
 }, {//16
   question: "Who lived in America before the Europeans arrived?",
-  answers: ["A: Native Americans", "B: Latinos", "C: Cowboys", "D: All of the above"],
-  correctAnswer: "A: Native Americans"
+  answers: ["Native Americans", "Latinos", "Cowboys", "All of the above"],
+  correctAnswer: "Native Americans"
 }, {//17
   question:  "Name one war fought by the United States in the 1800s",
-  answers: ["A: World War I", "B: American Revolution", "C: French and Indian War", "D: Mexican-American War"],
-  correctAnswer: "D: Mexican-American War"
+  answers: ["World War I", "American Revolution", "French and Indian War", "Mexican-American War"],
+  correctAnswer: "Mexican-American War"
 }, {//18
   question: "Who was President during World War I?",
-  answers: ["A: John F Kennedy", "B: Theodore Roosevelt", "C: Woodrow Wilson", "D: Herbert Hoover"],
-  correctAnswer: "C: Woodrow Wilson"
+  answers: ["John F Kennedy", "Theodore Roosevelt", "Woodrow Wilson", "Herbert Hoover"],
+  correctAnswer: "Woodrow Wilson"
 }, {//19
   question: "What ocean is on the West Coast of the United States?",
-  answers: ["A: Indian", "B: Atlantic", "C: Arctic", "D: Pacific"],
-  correctAnswer: "D: Pacific"
+  answers: ["Indian", "Atlantic", "Arctic", "Pacific"],
+  correctAnswer: "Pacific"
 }, {//20
   question: "We elect a U.S. Senator for how many years?",
-  answers: ["A: 2", "B: 4", "C: 6", "D: 10"],
-  correctAnswer: "C: 6"
+  answers: ["2", "4", "6", "10"],
+  correctAnswer: "6"
 }, {//21
   question: "The idea of self-government is in the first three words of the Constitution. What are those words?",
-  answers: ["A: We the government", "B: The President is", "C: We the people", "D: The Founding Fathers"],
-  correctAnswer: "C: We the people"
+  answers: ["We the government", "The President is", "We the people", "The Founding Fathers"],
+  correctAnswer: "We the people"
 }, {//22
   question: "The House of Representatives has how many voting memebers?",
-  answers: ["A: 50", "B: 100", "C: 200", "D: 435"],
-  correctAnswer: "D: 435"
+  answers: ["50", "100", "200", "435"],
+  correctAnswer: "435"
 }, {//23
   question: "We elect a U.S Representative for how many years?",
-  answers: ["A: 2", "B: 4", "C: 6", "D: 10"],
-  correctAnswer: "A: 2"
+  answers: ["2", "4", "6", "10"],
+  correctAnswer: "2"
 }, {//24
   question:  "Who does a U.S. Senator represent?",
-  answers: ["A: All of the people from thier state", "B: All of the people of the state in thier party", "C: The northern or southern half of a state ", "D: All of the people in America "],
-  correctAnswer: "A: All of the people from thier state"
+  answers: ["All of the people from thier state", "All of the people of the state in thier party", "The northern or southern half of a state ", "All of the people in America "],
+  correctAnswer: "All of the people from thier state"
 }, {//25
   question: "Name one right only for United States citizens",
-  answers: ["A: Run for federal office", "B: Own a home", "C: Applying for federal grants", "D: None of the above"],
-  correctAnswer: "A: Run for federal office"
+  answers: ["Run for federal office", "Own a home", "Applying for federal grants", "None of the above"],
+  correctAnswer: "Run for federal office"
 }, {//26
   question: "What group of people were taken to America and sold as slaves?",
-  answers: ["A: Chinese", "B: Latinos", "C: Africans", "D: Indians"],
-  correctAnswer: "C: Africans"
+  answers: ["Chinese", "Latinos", "Africans", "Indians"],
+  correctAnswer: "Africans"
 }, {//27
   question: "Name the U.S. war between the North and the South.",
-  answers: ["A: The Civil War", "B: The Union war", "C: The Confederacy War", "D: None of the above"],
-  correctAnswer: "A: The Civil War"
+  answers: ["The Civil War", "The Union war", "The Confederacy War", "None of the above"],
+  correctAnswer: "The Civil War"
 }, {//28
   question: "Who was President during the Great Depression and World War II?",
-  answers: ["A: Theodore Roosevelt", "B: Franklin Roosevelt", "C: Herbert Hoover", "D: John F Kennedy"],
-  correctAnswer: "B: Franklin Roosevelt"
+  answers: ["Theodore Roosevelt", "Franklin Roosevelt", "Herbert Hoover", "John F Kennedy"],
+  correctAnswer: "Franklin Roosevelt"
 }, {//29
   question:  "What ocean is on the East Coast of the United States?",
-  answers: ["A: Indian", "B: Atlantic", "C: Arctic", "D: Pacific"],
-  correctAnswer: "B: Atlantic"
+  answers: ["Indian", "Atlantic", "Arctic", "Pacific"],
+  correctAnswer: "Atlantic"
 }, {//30
   question: "Why do some states have more Representatives than other states?",
-  answers: ["A: Because some states are considered better", "B: Because some states have more people", "C: Because states can pick how many representatives they want to send to the House", "D: None of the above"],
-  correctAnswer: "B: Because some states have more people"
+  answers: ["Because some states are considered better", "Because some states have more people", "Because states can pick how many representatives they want to send to the House", "None of the above"],
+  correctAnswer: "Because some states have more people"
 }, {//31
   question: "What is an Ammendment?",
-  answers: ["A: A change(to the Constitution)", "B: An addition(to the Constitution", "C: Both A and B", "D: None of the above"],
-  correctAnswer: "C: Both A and B"
+  answers: ["A change(to the Constitution)", "An addition(to the Constitution", "Both a change(to the Constitution) and an addition(to the Constitution", "None of the above"],
+  correctAnswer: "Both a change(to the Constitution) and an addition(to the Constitution"
 }, {//32
   question: "We elect a President for how many years?",
-  answers: ["A: 2", "B: 4", "C: 6", "D: 10"],
-  correctAnswer: "B: 4"
+  answers: ["2", "4", "6", "10"],
+  correctAnswer: "6"
 }, {//33
   question: "In what month do we vote for President?",
-  answers: ["A: January", "B: March", "C: September", "D: November"],
-  correctAnswer: "D: November"
+  answers: ["January", "March", "September", "November"],
+  correctAnswer: "November"
 }, {//34
   question: "What is the name of the President of the United States now?",
-  answers: ["A: Barack Obama", "B: George W Bush", "C: Hillary Clinton", "D: Bill Clinton"],
-  correctAnswer: "A: Barack Obama"
+  answers: ["Barack Obama", "George W Bush", "Hillary Clinton", "Bill Clinton"],
+  correctAnswer: "Barack Obama"
 }, {//35
   question: "What are two rights of everyone living in the United States?",
-  answers: ["A: Freedom of speech", "B: Freedom to bear arms", "C: Both A and B", "D: None of the above"],
-  correctAnswer: "C: Both A and B"
+  answers: ["Freedom of speech", "Freedom to bear arms", "Both freedom of speech and freedom to bear arms", "None of the above"],
+  correctAnswer: "Both freedom of speech and freedom to bear arms"
 }, {//36
   question: "Why did the colonists fight the British?",
-  answers: ["A: Because of high taxes(taxation without representation)", "B: Because the British army had stayed in thier homes(boarding, quartering)", "C: Because they wnanted to have self government", "D: All of the above"],
-  correctAnswer: "D: All of the above"
+  answers: ["Because of high taxes(taxation without representation)", "Because the British army had stayed in thier homes(boarding, quartering)", "Because they wnanted to have self government", "All of the above"],
+  correctAnswer: "All of the above"
 }, {//37
   question: "Name one problem that led to the Civil War.",
-  answers: ["A: Slavery", "B: Oppresion", "C: Language diffrences", "D: All of the above"],
-  correctAnswer: "A: Slavery"
+  answers: ["Slavery", "Oppresion", "Language diffrences", "All of the above"],
+  correctAnswer: "Slavery"
 }, {//38
   question: "Who did the United States fight in World War II?",
-  answers: ["A: Germany only", "B: Italy only", "C: Japan only", "D: Germany, Italy and Japan"],
-  correctAnswer:  "D: Germany, Italy and Japan"
+  answers: ["Germany only", "Italy only", "Japan only", "Germany, Italy and Japan"],
+  correctAnswer:  "Germany, Italy and Japan"
 }, {//39
-  question: "Name one U.S. territory.",
-  answers: ["A: Congress", "B: The House of Representatives", "C: The Senate", "D: The President"],
-  correctAnswer: "John Roberts"
+  question: "The last of the 50 stats was given statehood on August 21 1959. Name the state. ",
+  answers: ["Oregon", "Alaska", "Idaho", "Hawaii"],
+  correctAnswer: "Hawaii"
 }, {//40
   question: "Name one U.S. territory.",
-  answers: ["A: Puerto Rico", "B: The Caribbean", "C: The Canary Islands", "D: Cuba"],
-  correctAnswer: "A: Puerto Rico"
+  answers: ["Puerto Rico", "The Caribbean", "The Canary Islands", "Cuba"],
+  correctAnswer: "Puerto Rico"
 }, {//41
   question: "Name one state that borders Canada",
-  answers: ["A: California", "B: South Dakota", "C: New York", "D: Maryland"],
-  correctAnswer: "C: New York"
+  answers: ["California", "South Dakota", "New York", "Maryland"],
+  correctAnswer: "New York"
 }, {//42
   question: "What do we call the first ten ammendments to the Constitution?",
-  answers: ["A: The Bill of Rights", "B: The Ten Commandments", "C: The Bill of Laws", "D: The Preamble to the Constitution"],
-  correctAnswer: "A: The Bill of Rights"
+  answers: ["The Bill of Rights", "The Ten Commandments", "The Bill of Laws", "The Preamble to the Constitution"],
+  correctAnswer: "The Bill of Rights"
 }, {//43
   question: "What is the name of the Vice President of the United States now?",
-  answers: ["A: Hillary Clinton", "B: Mitt Romney", "C: Joe Biden", "D: Dick Chaney"],
-  correctAnswer: "C: Joe Biden"
+  answers: ["Hillary Clinton", "Mitt Romney", "Joe Biden", "Dick Chaney"],
+  correctAnswer: "Joe Biden"
 }, {//44
   question:  "If the President can no longer serve, who becomes President?",
-  answers: ["A: The Speaker of the House", "B: The Secretary of State", "C: The Vice President", "D: A member of Congress"],
-  correctAnswer: "C: The Vice President"
+  answers: ["The Speaker of the House", "The Secretary of State", "The Vice President", "A member of Congress"],
+  correctAnswer: "The Vice President"
 }, {//45
   question: "If the President and Vice President can no longer serve, who becomes President?",
-  answers: ["A: The Secretary of Agriculture", "B: The Secretary of State", "C: The Speaker of the House", "D: A member of Congress"],
-  correctAnswer: "C: The Speaker of the House"
+  answers: ["The Secretary of Agriculture", "The Secretary of State", "The Speaker of the House", "A member of Congress"],
+  correctAnswer: "The Speaker of the House"
 }, {//46
   question: "What do we show loyalty to when we say the Pledge of Allegiance",
-  answers: ["A: the flag", "B: The President", "C: The Capitol", "D: The Founding Fathers"],
-  correctAnswer: "A: the flag"
+  answers: ["The flag", "The President", "The Capitol", "The Founding Fathers"],
+  correctAnswer: "The flag"
 }, {//47
   question: "Who wrote the Declaration of Independence?",
-  answers: ["A: George Washington", "B: James Madison", "C: John Adams", "D: Thomas Jefferson"],
-  correctAnswer: "D: Thomas Jefferson"
+  answers: ["George Washington", "James Madison", "John Adams", "Thomas Jefferson"],
+  correctAnswer: "Thomas Jefferson"
 }, {//48
   question: "What was one important thing that Abraham Lincoln did?",
-  answers: ["A: Freed the slaves(Emancipation Proclamation)", "B: Saved(or preserved) the Union", "C: Led the United States during the Civil War", "D: All of the above"],
-  correctAnswer: "D: All of the above"
+  answers: ["Freed the slaves(Emancipation Proclamation)", "Saved(or preserved) the Union", " Led the United States during the Civil War", "All of the above"],
+  correctAnswer: "All of the above"
 }, {//49
   question: "Before he was President, Eisenhower was a general. What war was he in?",
-  answers: ["A: World War I", "B: World War II", "C: Vietnam War", "D: Korean War"],
-  correctAnswer: "B: World War II"
+  answers: ["World War I", "World War II", "Vietnam War", "Korean War"],
+  correctAnswer: "Vietnam War"
 }, {//50
   question: "Name one state that borders Mexico?",
-  answers: ["A: California", "B: South Dakota", "C: New York", "D: Florida"],
-  correctAnswer: "A: California"
+  answers: ["California", "South Dakota", "New York", "Florida"],
+  correctAnswer: "California"
  }, {//51
   question: "Who is the Commander in Chief of the military?",
-  answers: ["A: The General", "B: The Vice President", "C: The Speaker of the House", "D: The President"],
-  correctAnswer: "D: The President"
+  answers: ["The General", "The Vice President", "The Speaker of the House", "The President"],
+  correctAnswer: "The President"
 }, {//52
   question: "What is one right or freedom from the First Ammendment?",
-  answers: ["A: Happiness", "B: Speech", "C: Income", "D: Marriage"],
-  correctAnswer: "B: Speech"
+  answers: ["Happiness", "Speech", "Income", "Marriage"],
+  correctAnswer: "Speech"
 }, {//53
   question: "Who signs bills to become laws?",
-  answers: ["A: Member of Congress", "B: The President", "C: Supreme Court Justices", "D: All of the above"],
-  correctAnswer: "B: The President"
+  answers: ["Member of Congress", "The President", "Supreme Court Justices", "All of the above"],
+  correctAnswer: "The President"
 }, {//54
   question: "Who vetoes bills?",
-  answers: ["A: Member of Congress", "B: The President", "C: Supreme Court Justices", "D: All of the above"],
-  correctAnswer: "B: The President"
+  answers: ["Member of Congress", "The President", "Supreme Court Justices", "All of the above"],
+  correctAnswer: "The President"
 }, {//55
   question: "What does the President's cabinet do?",
-  answers: ["A: Advises the President", "B: Provides administrative support for the President", "C: Hires White House employees", "D: Writes laws"],
-  correctAnswer: "A: Advises the President"
+  answers: ["Advises the President", "Provides administrative support for the President", "Hires White House employees", "Writes laws"],
+  correctAnswer: "Advises the President"
 }, {//56
   question: "What is one promise you make when you become a United States citizen?",
-  answers: ["A: To always recite the Pledge of Allegiance", "B: To obey the laws of the United States", "C: To vote in every presidential election", "D: To engage in activism"],
-  correctAnswer: "B: To obey the laws of the United States"
+  answers: ["To always recite the Pledge of Allegiance", "To obey the laws of the United States", "To vote in every presidential election", "To engage in activism"],
+  correctAnswer: "To obey the laws of the United States"
 }, {//57
   question: "When was the Declaration of Independence adopted?",
-  answers: ["A: July 2nd 1776", "B: July 4th 1776", "C: July 4th 1789", "D: July 8th 1776"],
-  correctAnswer: "B: July 4th 1776"
+  answers: ["July 2nd 1776", "July 4th 1776", "July 4th 1789", "July 8th 1776"],
+  correctAnswer: "July 4th 1776"
 }, {//58
   question: "What did the Emancipation Proclamation do?",
-  answers: ["A: Freed the slaves", "B: Declared war on the South", "C: Proclaimed the Union's independence from the Confederacy", "D: All of the above"],
-  correctAnswer: "A: Freed the slaves"
+  answers: ["Freed the slaves", "Declared war on the South", "Proclaimed the Union's independence from the Confederacy", "All of the above"],
+  correctAnswer: "Freed the slaves"
 }, {//59
   question: "What document did the U.S Constitution replace?",
-  answers: ["A: The Federalist Papers", "B: The Bill of Rights", "C: The Articles of Confederation", "D: The Declaration of Independence"],
-  correctAnswer: "C: The Articles of Confederation"
+  answers: ["The Federalist Papers", "The Bill of Rights", "The Articles of Confederation", "The Declaration of Independence"],
+  correctAnswer: "The Articles of Confederation"
 }, {//60
   question: "During the Cold War, what was the main concern of the United States?",
-  answers: ["A: Slavery", "B: Socialism", "C: Communism", "D: Civil Rights"],
-  correctAnswer: "C: Communism"
+  answers: ["Slavery", "Socialism", "Communism", "Civil Rights"],
+  correctAnswer: "Communism"
 },{//61
   question: "What is the capital of the United States?",
-  answers: ["A: Washington DC", "B: Philadelphia", "C: New York", "D: Los Angeles"],
-  correctAnswer:  "A: Washington DC"
+  answers: ["Washington DC", "Philadelphia", "New York", "Los Angeles"],
+  correctAnswer:  "Washington DC"
 }, {//62
   question: "Name two national U.S. holidays",
-  answers: ["A: Independence Day and Martin Luther King Jr Day", "B: Caesar Chavez Day and Easter", "C: Mother and Father's Day", "D: Civil Rights and Declaration of Independence Day"],
-  correctAnswer: "A: Independence Day and Martin Luther King Jr Day"
+  answers: ["Independence Day and Martin Luther King Jr Day", "Caesar Chavez Day and Easter", "Mother and Father's Day", "Civil Rights and Declaration of Independence Day"],
+  correctAnswer: "Independence Day and Martin Luther King Jr Day"
 }, {//63
   question:  "How many ammendments does the Constitution have?",
-  answers: ["A: 10", "B: 5", "C: 102", "D: 27"],
-  correctAnswer: "D: 27"
+  answers: ["10", "5", "102", "27"],
+  correctAnswer: "27"
 }, {//64
   question: "What office requires the candidate to be a natural-born citizen?",
-  answers: ["A: Speaker of the House", "B: President and Vice President", "C: Senator", "D: Chief Justice of the Supreme Court"],
-  correctAnswer: "B: President and Vice President"
+  answers: ["Speaker of the House", "President and Vice President", "Senator", "Chief Justice of the Supreme Court"],
+  correctAnswer: "President and Vice President"
 }, {//65
   question: "What does the judicial branch do?",
-  answers: ["A: Writes laws", "B: Only reviews laws", "C: Only explains laws", "D: Reviews and explains laws, resolves disputes and decides if a law goes agaianst the Constitution"],
-  correctAnswer: "D: Reviews and explains laws, resolves disputes and decides if a law goes agaianst the Constitution"
+  answers: ["Writes laws", "Only reviews laws", "Only explains laws", "Reviews and explains laws, resolves disputes and decides if a law goes agaianst the Constitution"],
+  correctAnswer: "Reviews and explains laws, resolves disputes and decides if a law goes agaianst the Constitution"
 }, {//66
   question: "What is the highest court in the United States?",
-  answers: ["A: The Court of Appeals", "B: The District Court", "C: The Supreme Court", "D: The Federal Court"],
-  correctAnswer: "C: The Supreme Court"
+  answers: ["The Court of Appeals", "The District Court", "The Supreme Court", "The Federal Court"],
+  correctAnswer: "The Supreme Court"
 }, {//67
   question: "How old do citizens have to be to vote for President?",
-  answers: ["A: 16", "B: 17", "C: 18", "D: 21"],
-  correctAnswer: "C: 18"
+  answers: ["16", "17", "18", "21"],
+  correctAnswer: "18"
 }, {//68
   question: "There were 13 original states. Name three.",
-  answers: ["A: Louisiana, Texas, New Mexico", "B: California, Nebraska, Nevada", "C: Michigan, Illinois, Ohio", "D: Massachusetts, New York, Virginia"],
-  correctAnswer: "D: Massachusetts, New York, Virginia" 
+  answers: ["Louisiana, Texas, New Mexico", "California, Nebraska, Nevada", "Michigan, Illinois, Ohio", "Massachusetts, New York, Virginia"],
+  correctAnswer: "Massachusetts, New York, Virginia" 
 }, {//69
   question: "What did Susan B Anthony do?",
-  answers: ["A: Was first woman to serve in office", "B: Fought for women's rights", "C: Fought for slave's rights", "D: Fought in the Battle of Monmouth"],
-  correctAnswer: "B: Fought for women's rights"
+  answers: ["Was first woman to serve in office", "Fought for women's rights", "Fought for slave's rights", "Fought in the Battle of Monmouth"],
+  correctAnswer: "Fought for women's rights"
 }, {//70
   question: "What movement tried to end racial discrimination?",
-  answers: ["A: The anti-communist movement", "B: The Civil Rights movement", "C: The LGBT movement", "D: The feminist movement"],
-  correctAnswer: "B: The Civil Rights movement"
+  answers: ["The anti-communist movement", "The Civil Rights movement", "The LGBT movement", "The feminist movement"],
+  correctAnswer: "The Civil Rights movement"
 }, {//71
   question: "Where is the Statue of Liberty?",
-  answers: ["A: Washington DC", "B: Philadelphia", "C: New York", "D: Los Angeles"],
-  correctAnswer: "C: New York"
+  answers: ["Washington DC", "Philadelphia", "New York", "Los Angeles"],
+  correctAnswer:  "New York"
 }, {//72
   question: "How many justices are on the Supreme Court?",
-  answers: ["A: 5", "B: 7", "C: 9", "D: 11"],
-  correctAnswer: "C: 9"
+  answers: ["5", "7", "9", "11"],
+  correctAnswer: "9"
 }, {//73
   question: "What did the Declaration of Independence do?",
-  answers: ["A: Announced our Independence(from Great Britain)", "B: Announced our Independence(from Great Britain)", "C: Said that the United States is free(from Great Britain)", "D: All of the above"],
-  correctAnswer: "D: All of the above"
+  answers: ["Announced our Independence(from Great Britain)", "Announced our Independence(from Great Britain)", "Said that the United States is free(from Great Britain)", "All of the above"],
+  correctAnswer: "All of the above"
 }, {//74
   question: "Who is the Chief Justic of the United States now?",
-  answers: ["A: John Roberts", "B: Samuel Alito", "C: Anthony Kennedy", "D: Ruth Bader Ginsburg"],
-  correctAnswer: "A: John Roberts"
+  answers: ["John Roberts", "Samuel Alito", "Anthony Kennedy", "Ruth Bader Ginsburg"],
+  correctAnswer: "John Roberts"
 }, {//75
   question: "Under our Constitution, some powers belong to the Federal government. What is one power of the Federal government?",
-  answers: ["A: To incarcerate", "B: To declare war", "C: To print money", "D: Both B and C"],
-  correctAnswer: "D: Both B and C"
+  answers: ["To incarcerate", "To declare war", "To print money", "Both to declare war and to print money"],
+  correctAnswer: "Both to declare war and to print money"
 }, {//76
   question: "Under our Constitution, some powers belong to the states. What is one power of the states?",
-  answers: ["A: Provide schooling and education", "B: Provide jobs", "C: Provide transportation", "D: Provide medical care"],
-  correctAnswer: "A: Provide schooling and education"
+  answers: ["Provide schooling and education", "Provide jobs", "Provide transportation", "Provide medical care"],
+  correctAnswer: "Provide schooling and education"
 }, {//77
   question: "What are two ways that Americans can participate in thier democracy?",
-  answers: ["A: Vote", "B: Help with a campain", "C: Open a business", "D: Both A and B"],
-  correctAnswer: "D: Both A and B"
+  answers: ["Vote", "Help with a campain", "Open a business", "Both vote and help with a campain"],
+  correctAnswer: "Both vote and help with a campain"
 }, {//78
   question: "What happend at the Constitutional Convention?",
-  answers: ["A: The first President was elected", "B: The Constitution was written", "C: The Constitution was destroyed", "D: The Declaration of Independence was signed"],
-  correctAnswer: "B: The Constitution was written"
+  answers: ["The first President was elected", "The Constitution was written", "The Constitution was destroyed", "The Declaration of Independence was signed"],
+  correctAnswer: "The Constitution was written"
 }, {//79
   question: "When was the Constitution written?",
-  answers: ["A: 1776", "B: 1777", "C: 1778", "D: 1787"],
-  correctAnswer: "D: 1787"
+  answers: ["1776", "1777", "1778", "1787"],
+  correctAnswer: "1787"
 }, {//80
   question: "What did Martin Luther King, Jr. do?",
-  answers: ["A: Fought for civil rights", "B: Became the first black President", "C: Opened a university", "D: All of the above"],
-  correctAnswer: "A: Fought for civil rights"
+  answers: ["Fought for civil rights", "Became the first black President", "Opened a university", "All of the above"],
+  correctAnswer: "Fought for civil rights"
 }, {//81
   question: "What are two rights in the Declaration of Independence?",
-  answers: ["A: Life", "B: Voting", "C: Liberty", "D: Both A and C"],
-  correctAnswer: "D: Both A and C"
+  answers: ["Life", "Voting", "Liberty", "Both life and liberty"],
+  correctAnswer: "Both life and liberty"
 }, {//82
   question: "What is freedom of religion?",
-  answers: ["A: Religion has power over the government", "B: You can force anyone to participate in your religion", "C: You can practice any religion, or not practice a religion", "D: Religion should not exist, and all citizens should be free from it"],
-  correctAnswer: "C: You can practice any religion, or not practice a religion"
+  answers: ["Religion has power over the government", "You can force anyone to participate in your religion", "You can practice any religion, or not practice a religion", "Religion should not exist, and all citizens should be free from it"],
+  correctAnswer: "You can practice any religion, or not practice a religion"
 }, {//83
   question: "What is the economic system in the United States?",
-  answers: ["A: Capitalist economy", "B: Political economy", "C: Socialist economy", "D: Communist economy"],
-  correctAnswer: "A: Capitalist economy"
+  answers: ["Capitalist economy", "Political economy", "Socialist economy", "Communist economy"],
+  correctAnswer: "Capitalist economy"
 }, {//84
   question: "What are the two major political parties in the United States?",
-  answers: ["A: Democratic and Republican", "B: Independent and Republican", "C: Tea party and Libertarian", "D: Democratic and Republican"],
-  correctAnswer: "A: Democratic and Republican"
+  answers: ["Democratic and Republican", "Independent and Republican", "Tea party and Libertarian", "Democratic and Republican"],
+  correctAnswer: "Democratic and Republican"
 }, {//85
   question: "What is the political party of the President now?",
-  answers: ["A: Democratic", "B: Republican", "C: Independent", "D: Libertarian"],
-  correctAnswer: "A: Democratic"
+  answers: ["Democratic", "Republican", "Independent", "Libertarian"],
+  correctAnswer: "Democratic"
 }, {//86
   question: "What is the name of the Speaker of the House of Representatives now?",
-  answers: ["A: Paul Ryan", "B: John McCain", "C: John Boehner", "D: John Edwards"],
-  correctAnswer: "A: Paul Ryan"
+  answers: ["Paul Ryan", "John McCain", "John Boehner", "John Edwards"],
+  correctAnswer: "Paul Ryan"
 }, {//87
   question: "When is the last day you can send in federal income tax forms?",
-  answers: ["A: March 15th", "B: April 15th", "C: May 15th", "D: June 15th"],
-  correctAnswer: "B: April 15th"
+  answers: ["March 15th", "April 15th", "May 15th", "June 15th"],
+  correctAnswer: "April 15th"
 }, {//88
   question: "The Federalist Papers supported the passage of the U.S Constitution. Name one of the writers.",
-  answers: ["A: James Madison", "B: Thomas Jefferson", "C: George Washington", "D: All of the above"],
-  correctAnswer: "A: James Madison"
+  answers: ["James Madison", "Thomas Jefferson", "George Washington", "All of the above"],
+  correctAnswer: "James Madison"
 }, {//89
   question: "What is one thing Benjamin Franklin is famous for?",
-  answers: ["A: Declaring war on the South", "B: Having started the first three libraries", "C: Being a President", "D: Inventing the dollar"],
-  correctAnswer: "B: Having started the first three libraries"
+  answers: ["Declaring war on the South", "Having started the first three libraries", "Being a President", "Inventing the dollar"],
+  correctAnswer: "Having started the first three libraries"
 }, {//90
   question: "What major event happened on September11,2001 in the United States?",
-  answers: ["A: The U.S. declared war on Syria", "B: The U.S. was attacked by terrorists", "C: Both A and B", "D: None of the above"],
-  correctAnswer: "B: The U.S. was attacked by terrorists"
+  answers: ["The U.S. declared war on Syria", "The U.S. was attacked by terrorists", "Both the U.S. declared war on Syria and the U.S. was attacked by terrorists", "None of the above"],
+  correctAnswer: "The U.S. was attacked by terrorists"
 }, {//91
   question: "What is the Rule of Law",
-  answers: ["A: Everyone must follow the law, except the leaders", "B: Everyone must follow the law, except the government", "C: Only Congress is above the law", "D: Everyone must follow the law, leaders and government must obey the law, and no one is above the law"],
-  correctAnswer: "D: Everyone must follow the law, leaders and government must obey the law, and no one is above the law"
+  answers: ["Everyone must follow the law, except the leaders", "Everyone must follow the law, except the government", "Only Congress is above the law", "Everyone must follow the law, leaders and government must obey the law, and no one is above the law"],
+  correctAnswer: "Everyone must follow the law, leaders and government must obey the law, and no one is above the law"
 }, {//92
   question: "What day do we thank people for thier service in the military?",
-  answers: ["A: Columbus Day", "B: Labor Day", "C: Veterans Day", "D: Memorial Day"],
-  correctAnswer: "C: Veterans Day"
+  answers: ["Columbus Day", "Labor Day", "Veterans Day", "Memorial Day"],
+  correctAnswer: "Veterans Day"
 }, {//93
   question: "Who wrote the Star Spangled Banner?",
-  answers: ["A: Benjamin Franklin", "B: Francis Scott Key", "C: Woody Guthrie", "D: Frank Sinatra"],
-  correctAnswer: "B: Francis Scott Key"
+  answers: ["Benjamin Franklin", "Francis Scott Key", "Woody Guthrie", "Frank Sinatra"],
+  correctAnswer: "Francis Scott Key"
 }, {//94
   question: "Name one American Indian tribe in the United States.",
-  answers: ["A: Maasai", "B: The Village People", "C: Cherokee", "D: Mayans"],
-  correctAnswer: "C: Cherokee"
+  answers: ["Maasai", "The Village People", "Cherokee", "Mayans"],
+  correctAnswer: "Cherokee"
 }, {//95
   question: "What U.S. aganecy is responsible for space exploration?",
-  answers: ["A: Center for Space Exploration", "B: Kennedy Space Center", "C: Center for Disease Control", "D: NASA"],
-  correctAnswer: "D: NASA"
+  answers: ["Center for Space Exploration", "Kennedy Space Center", "Center for Disease Control", "NASA"],
+  correctAnswer: "NASA"
 }, {//96
   question: "What is the Sufferage Act?",
-  answers: ["A: 19th amendment allowing women the right to vote", "B: Fight agaisnt Communism", "C: Ban on Socialism", "D: Job relief for unemployed workers during the Depression era"],
-  correctAnswer: "A: 19th amendment allowing women the right to vote"
+  answers: ["19th amendment allowing women the right to vote", "Fight agaisnt Communism", "Ban on Socialism", "Job relief for unemployed workers during the Depression era"],
+  correctAnswer: "19th amendment allowing women the right to vote"
 }, {//97
   question: "What is the name of the national anthem?",
-  answers: ["A: Born in the USA", "B: America", "C: The Star-Spangled Banner", "D: Oh Freedom"],
-  correctAnswer: "C: The Star-Spangled Banner"
+  answers: ["Born in the USA", "America", "The Star-Spangled Banner", "Oh Freedom"],
+  correctAnswer: "The Star-Spangled Banner"
 }, {//98
   question: "Who is the Father of our Country?",
-  answers: ["A: John Q Adams", "B: Alexander Hamilton", "C: George Washington", "D: James Madison"],
-  correctAnswer: "C: George Washington"
+  answers: ["John Q Adams", "Alexander Hamilton", "George Washington", "James Madison"],
+  correctAnswer: "George Washington"
 }, {//99
   question: "What was one of the 13 original states?",
-  answers: ["A: Michigan", "B: New Jersey", "C: California", "D: Texas"],
-  correctAnswer:  "B: New Jersey"
+  answers: ["Michigan", "New Jersey", "California", "Texas"],
+  correctAnswer: "New Jersey"
 }, {//100
   question: "When was the U.S Constitution written?",
-  answers: ["A: September 17, 1787", "B: December 25, 1777", "C: The June 21, 1788", "D: July 4, 1776"],
-  correctAnswer: "A: September 17, 1787"
+  answers: ["September 17, 1787", "December 25, 1777", "The June 21, 1788", "July 4, 1776"],
+  correctAnswer: "September 17, 1787"
  }];
 
 
