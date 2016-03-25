@@ -42,3 +42,6 @@
 
 	display: inline-block;
 }
+#button {
+	display:block;
+}
