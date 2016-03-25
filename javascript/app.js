@@ -490,6 +490,22 @@ var questions = [{//1
 var questionNumber = 0;
 var correct = 0;
 var incorrect = 0;
+// start function
+
+function start(){
+	
+	randomNum();
+	display();
+
+}
+
+start();
+
+$(document).on("click", ".answer-button3", function(e){
+	
+	start();
+});
+
 
 //Generate random number
 
@@ -498,11 +514,13 @@ function randomNum(){
 	questionNumber = Math.floor((Math.random() * 99) + 1);
 }
 
-randomNum();
+
 
 //Display questions and options
 
 function display(){
+	$("#resultDiv").empty();
+	$("#panel").empty();
 	$("#questionDiv").html("<h2>" + questions[questionNumber].question + "</h2>");
       for (var i = 0; i<questions[this.questionNumber].answers.length; i++){
       $("#panel").append("<a class='answer-button waves-effect waves-light btn-large' id='button'" + "data-name='" + questions[this.questionNumber].answers[i] + "''>" + questions[this.questionNumber].answers[i]+ "</a>");
@@ -510,7 +528,6 @@ function display(){
     	}
 }
 
-display();
 
 //$("#panel").append("Correct answers: " + correct + "<br>" + "Incorrect answers: " + incorrect ); - why?????
 
@@ -519,10 +536,10 @@ display();
 $(document).on("click", ".answer-button", function(e) {
 	
 	if ($(e.target).data("name") === questions[questionNumber].correctAnswer){
-    	$("#resultDiv").html("<div class='card-panel teal white-text'>Correct!!!!</div>");
+    	$("#resultDiv").html("<div class='card-panel teal white-text'>Correct!!!!</div><a class='answer-button3 waves-effect waves-light btn'>next</a>");
     	correct++;
     } else {
-   	    $("#resultDiv").html("<div class='card-panel teal white-text'> The correct answer is " + questions[questionNumber].correctAnswer + "</div>");
+   	    $("#resultDiv").html("<div class='card-panel teal white-text'> The correct answer is " + questions[questionNumber].correctAnswer + "</div><a class='answer-button3 waves-effect waves-light btn'>next</a>");
      	incorrect++;
     }
   console.log(correct);
@@ -647,10 +664,10 @@ var queryUrl5 = 'https:translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl
 $(document).on("click", ".answer-button2", function(e) {
 	
 	if ($(e.target).data("name") === questions[questionNumber].correctAnswer){
-    	$("#resultDiv").html("<div class='card-panel teal white-text'>Correct!!!!</div>");
+    	$("#resultDiv").html("<div class='card-panel teal white-text'>Correct!!!!</div><a class='answer-button3 waves-effect waves-light btn'>next</a>");
     	correct++;
     } else {
-   	    $("#resultDiv").html("<div class='card-panel teal white-text'> The correct answer is " + questions[questionNumber].correctAnswer + "</div>");
+   	    $("#resultDiv").html("<div class='card-panel teal white-text'> The correct answer is " + questions[questionNumber].correctAnswer + "</div><a class='answer-button3 waves-effect waves-light btn'>next</a>");
      	incorrect++;
     }
   console.log(correct);
@@ -658,3 +675,4 @@ $(document).on("click", ".answer-button2", function(e) {
 });
 
 });
+
