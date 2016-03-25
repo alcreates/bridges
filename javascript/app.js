@@ -664,6 +664,7 @@ var queryUrl5 = 'https:translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl
 $(document).on("click", ".answer-button2", function(e) {
 	
 	if ($(e.target).data("name") === questions[questionNumber].correctAnswer){
+		
     	$("#resultDiv").html("<div class='card-panel teal white-text'>Correct!!!!</div><a class='answer-button3 waves-effect waves-light btn'>next</a>");
     	correct++;
     } else {
