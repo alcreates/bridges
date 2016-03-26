@@ -45,7 +45,7 @@ messagesRef.limitToLast(10).on('child_added',function(snapshot){
 });
 
 var feedcontainer= document.getElementById("newsFeed")
-var feedurl="http://rss.cnn.com/rss/edition_world.rss"
+var feedurl="https://rss.cnn.com/rss/edition_world.rss"
 var feedlimit=5
 var rssoutput="<b>Latest CNN World News:</b><br /><ul>"
 
