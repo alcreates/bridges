@@ -1,15 +1,13 @@
 
-
+//Chat feature created with firebase
 var messagesRef = new Firebase("https://bridgeschat.firebaseio.com/");
-
-
-
+//Chat box values
 var messageField = $('#chatTextInput');
 var nameField = $('#nameInput');
 var messageList = $('#chat')
 
 
-
+//Actions after the user enters message
 messageField.keydown(function (e) {
    
 	if (e.keyCode == 13){
@@ -24,7 +22,7 @@ messageField.keydown(function (e) {
 	}
 
 });
-
+//event listener that populates chat box
 messagesRef.limitToLast(10).on('child_added',function(snapshot){
 
 	var data = snapshot.val();
@@ -40,10 +38,12 @@ messagesRef.limitToLast(10).on('child_added',function(snapshot){
 
 	messageList[0].scrollTop = messageList[0].scrollHeight;
 
-
-
 });
 
+
+
+
+//News Feed --------------------------------------------------------------------
 var feedcontainer= document.getElementById("newsFeed")
 var feedurl="http://rss.cnn.com/rss/edition_world.rss"
 var feedlimit=5
@@ -80,7 +80,7 @@ $.backstretch('images/usabridge.jpg');
 })
 
 
-// test prep ----------------------------------------------------------------------
+// test prep to be put in MongoDB ----------------------------------------------------------------------
 
 var questions = [{//1
   question: "What is the supreme law of the land?",
